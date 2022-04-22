@@ -12,7 +12,6 @@ var generateParenthesis = function(n) {
     const getParen = (leftlen, rightLen) => {
         if(leftlen === n && rightLen === n) {
             const finalParen = stack.join('') 
-            console.log(stack)
             ans.push(finalParen)
             return
         }
