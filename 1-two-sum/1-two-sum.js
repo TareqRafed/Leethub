@@ -17,7 +17,6 @@ var twoSum = function(nums, target) {
             index,
             }    
         }
-        
     })
     
     if(!ans.length) {
@@ -26,9 +25,7 @@ var twoSum = function(nums, target) {
             ans.push(index)
         }
     })
-        
     }
-    
     
     return ans
 
