@@ -1,17 +1,14 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        hmap = {}
-        for index, val in enumerate(strs):
-            key = ''
-            for letter in sorted(val):
-                key += letter
-            if key in hmap:
-                hmap[key].append(val)
-            else:
-                hmap[key] = [val]
+        hmap = defaultdict(list)
         
-        ans = []
-        for val in hmap.values():
-            ans.append(val)
+        for val in strs:
+            count = [0] * 26
+            
+            for letter in val:
+                count[ord(letter) - ord('a')] += 1
+            
+            hmap[tuple(count)].append(val)
         
-        return ans
+        return hmap.values()
+        
