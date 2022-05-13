@@ -7,7 +7,6 @@ function findMin(nums: number[]): number {
     const leftSide = nums.slice(0, Math.floor(nums.length / 2))
     const rightSide = nums.slice(Math.floor(nums.length / 2), nums.length)
     
-    console.log(leftSide, rightSide)
     
     const middleE: number = rightSide[0]
     
