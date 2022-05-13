@@ -10,6 +10,8 @@ class Solution:
             else:
                 hmap[key] = [val]
         
+        ans = []
+        for val in hmap.values():
+            ans.append(val)
         
-        
-        return hmap.values()
+        return ans
