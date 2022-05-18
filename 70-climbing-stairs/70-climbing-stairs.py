@@ -1,7 +1,5 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        
-        counter = 0
         memo = {}
         def dfs(num, counter):
             counter += 1
