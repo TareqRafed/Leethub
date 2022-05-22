@@ -1,26 +1,37 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        newGoal = word[0]
-        rowLen = len(board)
-        colLen = len(board[0])
-        memo = set()
-        def dfs(index = 0, row = 0, col = 0,):
+        ROWS_LEN = len(board)
+        COL_LEN = len(board[0])
+        
+        path = set()
+        
+        def dfs(row, col, index):
             if index == len(word):
                 return True
-            
-            if row < 0 or col < 0 or row >= rowLen or col >= colLen or board[row][col] != word[index] or (row, col) in memo:
+        
+            if (row >= ROWS_LEN 
+            or col >= COL_LEN 
+            or row < 0 
+            or col < 0 
+            or board[row][col] != word[index]
+            or (row, col) in path):
                 return False
             
-            memo.add((row, col))
-            res = (dfs(index + 1, row + 1, col) or
-                  dfs(index + 1, row - 1, col) or 
-                  dfs(index + 1, row, col + 1) or 
-                  dfs(index + 1, row, col - 1) )
-            memo.remove((row, col))
+            path.add((row, col))
+            
+            res = (dfs(row + 1, col, index + 1) or
+                  dfs(row - 1, col, index + 1) or
+                  dfs(row, col + 1, index + 1) or
+                  dfs(row, col - 1, index + 1))
+            
+            path.remove((row, col))
             
             return res
         
-        for r in range(rowLen):
-            for c in range(colLen):
-                if dfs(0, r, c): return True
+        for row in range(ROWS_LEN):
+            for col in range(COL_LEN):
+                if dfs(row, col, 0): return True
+        
         return False
+    
+
