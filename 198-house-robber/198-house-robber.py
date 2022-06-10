@@ -1,6 +1,6 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        sum = float("-inf")
+
         memo = {}
         def dfs(index):
             if index in memo:
