@@ -10,8 +10,8 @@ class Solution:
             hmap[val] = hmap.get(val, 0) - 1
         
         
-        for val in hmap.keys():
-            if hmap[val] != 0:
+        for val in hmap.values():
+            if val != 0:
                 return False
         
         return True
