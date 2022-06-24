@@ -8,28 +8,21 @@
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         
-        res = []
-        def dfs(root, path, goal):
-            if not root:
-                return
-            
-            path.append(root)
-            
-            if root.val == goal:
-                res.append(path.copy())
-            
-            
-            dfs(root.left, path.copy(), goal)
-            dfs(root.right, path.copy(), goal)
-            
+        stack = [root]
+        parent = {root: None}
         
-        dfs(root, [], p.val)
-        dfs(root, [], q.val)
-        
-        p_p = res[0]
-        q_p = res[1]
-        
-        for i in range(len(p_p) - 1, -1, -1):
-            for j in range(len(q_p) - 1, -1, -1):
-                if p_p[i] == q_p[j]:
-                    return p_p[i]
+        while p not in parent or q not in parent:
+            node = stack.pop()
+            if node.left:
+                parent[node.left] = node
+                stack.append(node.left)
+            if node.right:
+                parent[node.right] = node
+                stack.append(node.right)
+        ancestors = set()
+        while p:
+            ancestors.add(p)
+            p = parent[p]
+        while q not in ancestors:
+            q = parent[q]
+        return q 
