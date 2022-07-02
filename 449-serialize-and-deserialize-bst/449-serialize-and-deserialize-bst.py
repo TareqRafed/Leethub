@@ -29,18 +29,18 @@ class Codec:
         return ans
     
     def build(self, preorder, inorder):
-        # build a tree from preorder and inorder
-        if not preorder or not inorder:
-            return
-        mid = preorder[0]
-        root = TreeNode(mid)
-        
-        pre_index = inorder.index(mid)
-        
-        root.left = self.build(preorder[1:pre_index + 1], inorder[: pre_index])
-        root.right = self.build(preorder[pre_index + 1:], inorder[pre_index + 1:])
-        
-        return root
+        def b(stop):
+            if inorder and inorder[-1] != stop: ## check if first element in inorder (before reversing) is not reached yet
+                root = TreeNode(preorder.pop()) # get the root by getting first element of preorder
+                root.left = b(root.val)
+                inorder.pop()
+                root.right = b(stop)
+                return root
+            
+        ## to get pop left with O(n) complexity
+        preorder.reverse()
+        inorder.reverse()
+        return b(None)
         
 # Your Codec object will be instantiated and called as such:
 # Your Codec object will be instantiated and called as such:
