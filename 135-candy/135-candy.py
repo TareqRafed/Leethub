@@ -1,6 +1,6 @@
 class Solution:
     def candy(self, ratings: List[int]) -> int:
-        ans = len(ratings)
+        
         kidsCandies = [1 for _ in ratings]
         
         
