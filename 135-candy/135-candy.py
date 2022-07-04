@@ -11,5 +11,5 @@ class Solution:
         for i in range(len(ratings) - 1, 0, -1):
             if ratings[i - 1] > ratings[i] and kidsCandies[i - 1] <= kidsCandies[i]:
                 kidsCandies[i - 1] += (kidsCandies[i] - kidsCandies[i - 1]) + 1
-        print(kidsCandies)
+                
         return sum(kidsCandies)
