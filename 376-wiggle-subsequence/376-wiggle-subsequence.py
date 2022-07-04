@@ -4,15 +4,14 @@ class Solution:
         if len(nums) < 2:
             return len(nums)
         
-        up = [0] * len(nums)
-        down = [0] * len(nums)
+        dp = [nums[i] - nums[i-1] for i in range(1, len(nums)) if nums[i] - nums[i - 1] != 0]
         
-        for i, val in enumerate(nums):
-            for j, val2 in enumerate(nums):
-                if val > val2:
-                    up[i] = max(up[i], down[j] + 1) 
-                elif val < val2:
-                    down[i] = max(down[i], up[j] + 1)
+        if len(dp) == 0:
+            return 1
         
-        
-        return max(down[-1], up[-1], 1)
+        ans = 2
+        for ind in range(1, len(dp)):
+            if dp[ind] > 0 and dp[ind - 1] < 0 or dp[ind] < 0 and dp[ind - 1] > 0:
+                ans += 1
+        print(dp, ans)
+        return ans
