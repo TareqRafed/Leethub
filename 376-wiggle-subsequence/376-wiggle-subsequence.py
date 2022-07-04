@@ -13,5 +13,5 @@ class Solution:
         for ind in range(1, len(dp)):
             if dp[ind] > 0 and dp[ind - 1] < 0 or dp[ind] < 0 and dp[ind - 1] > 0:
                 ans += 1
-        print(dp, ans)
+
         return ans
