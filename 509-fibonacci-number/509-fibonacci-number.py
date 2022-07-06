@@ -2,12 +2,13 @@ class Solution:
     def fib(self, n: int) -> int:
         
         @lru_cache(None)
-        def dfs(i):
-            if i == 0 or i == 1:
-                return i
-            if i < 0:
-                return 0
+        def tail_recurs(i, a, b):
+            if i == 0:
+                return a
+            elif i == 1:
+                return b
+            else:
+                return tail_recurs(i - 1, b, a + b)
             
-            return dfs(i - 1) + dfs(i - 2)
         
-        return dfs(n)
+        return tail_recurs(n, 0, 1)
