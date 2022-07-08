@@ -1,7 +1,7 @@
 class Solution:
     def reverse(self, x: int) -> int:
         
-        if x.bit_length() > 32:
+        if x.bit_length() >= 32:
             return 0
         
         toStr = list(str(abs(x)))
@@ -13,7 +13,6 @@ class Solution:
             l += 1
             r -= 1
         ans = int(''.join(toStr))
-        print(ans.bit_length())
         if ans.bit_length() >= 32:
             return 0
         if x < 0:
