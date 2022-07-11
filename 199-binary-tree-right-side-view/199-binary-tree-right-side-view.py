@@ -8,7 +8,7 @@ class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []
-        ans = []
+
         queue = deque([(root, 1)])
         hmap = {
             1: root.val,
