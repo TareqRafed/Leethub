@@ -8,20 +8,19 @@ class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
 
         
-        def treeToArray(pre, ino):
-            #print(pre, ino)
-            if not pre or not ino:
-                return None
+        def buildTree(pre, ino):
             
-            mid_val = pre[0]
-            pre_index = ino.index(mid_val)
+            if not pre and not ino:
+                return
             
-            root = TreeNode(mid_val)
+            tree = TreeNode(pre[0])
             
-            root.left = treeToArray(pre[1:pre_index + 1], ino[:pre_index])
-            root.right = treeToArray(pre[pre_index + 1:], ino[pre_index + 1:])
-            #print(root)  
-            return root
+            rootIno = ino.index(pre[0])
             
+            
+            tree.left = buildTree(pre[1:rootIno + 1], ino[:rootIno])
+            tree.right = buildTree(pre[rootIno + 1:], ino[rootIno + 1:])
+            
+            return tree
         
-        return treeToArray(preorder, inorder)
+        return buildTree(preorder, inorder)
