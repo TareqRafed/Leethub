@@ -1,19 +1,15 @@
 
 
 bool isPalindrome(int x){
-    bool ans = false;
-    if(x < 0) {
-        return ans;
+    if (x < 0) return false;
+    
+    long int reversed = 0, reminder, original = x;
+    
+    while (x != 0) {
+        reminder = x % 10;
+        reversed = reversed * 10 + reminder;
+        x /= 10;
     }
     
-    char str[32];
-    sprintf(str, "%d", x);
-    int l = 0, r = strlen(str) - 1;
-    
-    while(l < r && str[l] == str[r]) {
-        l++;
-        r--;
-    }
-    
-    return l >= r;
+    return original == reversed;
 }
