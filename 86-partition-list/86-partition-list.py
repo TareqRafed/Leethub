@@ -6,36 +6,16 @@
 class Solution:
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
         
-        if not head:
-            return
-        
-        theHead = head
-        smaller = []
-        bigger = []
-        
-        while theHead:
-            if not theHead:
-                break
-            if theHead.val < x:
-                smaller.append(theHead)
+        h1 = l1 = ListNode(0)
+        h2 = l2 = ListNode(0)
+        while head:
+            if head.val < x:
+                l1.next = head
+                l1 = l1.next
             else:
-                bigger.append(theHead)
-            
-            theHead = theHead.next
-            
-        if len(smaller) == 0 or len(bigger) == 0:
-            return head
-        
-        for i in range(len(smaller)):
-            if i + 1 >= len(smaller):
-                smaller[i].next = bigger[0]
-                break
-            smaller[i].next = smaller[i + 1] 
-        
-        for i in range(len(bigger)):
-            if i + 1 >= len(bigger):
-                bigger[i].next = None
-                break
-            bigger[i].next = bigger[i + 1] 
-        
-        return smaller[0]
+                l2.next = head
+                l2 = l2.next
+            head = head.next
+        l2.next = None
+        l1.next = h2.next
+        return h1.next
