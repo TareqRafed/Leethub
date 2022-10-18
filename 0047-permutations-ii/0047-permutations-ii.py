@@ -4,11 +4,11 @@ class Solution:
         results = []
         
         def backtrack(comb, counter):
+
             if len(comb) == len(nums):
                 results.append(comb.copy())
                 return
             
-            prev = None
             
             for i, val in enumerate(counter.keys()):
                 if counter[val] == 0:
