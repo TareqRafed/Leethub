@@ -13,4 +13,24 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [1971-incremental-memory-leak](https://github.com/TareqRafed/Leethub/tree/master/1971-incremental-memory-leak) |
+## Array
+|  |
+| ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
+## Hash Table
+|  |
+| ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
+## String
+|  |
+| ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
+## Counting
+|  |
+| ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 <!---LeetCode Topics End-->
