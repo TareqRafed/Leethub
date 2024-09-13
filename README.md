@@ -33,4 +33,8 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
+## Database
+|  |
+| ------- |
+| [0178-rank-scores](https://github.com/TareqRafed/Leethub/tree/master/0178-rank-scores) |
 <!---LeetCode Topics End-->
