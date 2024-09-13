@@ -16,6 +16,7 @@ Collection of LeetCode questions that I have solved
 ## Array
 |  |
 | ------- |
+| [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Hash Table
 |  |
@@ -28,6 +29,7 @@ Collection of LeetCode questions that I have solved
 ## Bit Manipulation
 |  |
 | ------- |
+| [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Counting
 |  |
@@ -37,4 +39,8 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0178-rank-scores](https://github.com/TareqRafed/Leethub/tree/master/0178-rank-scores) |
+## Prefix Sum
+|  |
+| ------- |
+| [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 <!---LeetCode Topics End-->
