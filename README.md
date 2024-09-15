@@ -45,6 +45,7 @@ Collection of LeetCode questions that I have solved
 ## Database
 |  |
 | ------- |
+| [0175-combine-two-tables](https://github.com/TareqRafed/Leethub/tree/master/0175-combine-two-tables) |
 | [0178-rank-scores](https://github.com/TareqRafed/Leethub/tree/master/0178-rank-scores) |
 ## Prefix Sum
 |  |
