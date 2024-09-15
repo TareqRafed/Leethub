@@ -11,7 +11,6 @@ impl Solution {
             if vowels.contains(c) {
                 state ^= (1 as u32 + (c as u32) - ('a' as u32));
             }
-
             if let Some(value) = state_map.get(&(state as u32)) {
                 res = res.max(i - (*value as usize));
             } else {
