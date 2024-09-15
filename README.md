@@ -23,16 +23,19 @@ Collection of LeetCode questions that I have solved
 ## Hash Table
 |  |
 | ------- |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 ## String
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TareqRafed/Leethub/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Counting
@@ -47,6 +50,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 ## Brainteaser
 |  |
 | ------- |
