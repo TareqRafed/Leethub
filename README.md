@@ -27,6 +27,7 @@ Collection of LeetCode questions that I have solved
 ## String
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Bit Manipulation
 |  |
@@ -54,8 +55,13 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
 ## Greedy
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
