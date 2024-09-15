@@ -16,6 +16,7 @@ Collection of LeetCode questions that I have solved
 ## Array
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TareqRafed/Leethub/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -49,4 +50,12 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TareqRafed/Leethub/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Greedy
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 <!---LeetCode Topics End-->
