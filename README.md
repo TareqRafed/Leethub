@@ -8,6 +8,7 @@ Collection of LeetCode questions that I have solved
 ## Math
 |  |
 | ------- |
+| [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 | [1971-incremental-memory-leak](https://github.com/TareqRafed/Leethub/tree/master/1971-incremental-memory-leak) |
 ## Simulation
 |  |
@@ -17,6 +18,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TareqRafed/Leethub/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -29,6 +31,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
+| [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Bit Manipulation
@@ -69,4 +72,8 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
+## Sorting
+|  |
+| ------- |
+| [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 <!---LeetCode Topics End-->
