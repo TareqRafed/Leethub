@@ -12,7 +12,6 @@ impl Solution {
             tmp.push(count);
         } 
         tmp.sort();
-        println!("{:?}", tmp);
 
         for i in 0..tmp.len() - 1 {
             min = std::cmp::min(tmp[i+1] - tmp[i], min); 
