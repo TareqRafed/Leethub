@@ -11,7 +11,6 @@ impl Solution {
             if *count > 2 {
                 *hm.get_mut(&nums[i]).unwrap() -= 1;
                 nums.remove(i);
-                println!("{:?} {:?} {:?}", nums[i], i, hm);
                 continue;
             }
             i += 1;
