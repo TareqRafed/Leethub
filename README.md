@@ -8,6 +8,7 @@ Collection of LeetCode questions that I have solved
 ## Math
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/TareqRafed/Leethub/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 | [1971-incremental-memory-leak](https://github.com/TareqRafed/Leethub/tree/master/1971-incremental-memory-leak) |
 ## Simulation
@@ -33,6 +34,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
+| [0241-different-ways-to-add-parentheses](https://github.com/TareqRafed/Leethub/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/TareqRafed/Leethub/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -68,6 +70,7 @@ Collection of LeetCode questions that I have solved
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
+| [0241-different-ways-to-add-parentheses](https://github.com/TareqRafed/Leethub/tree/master/0241-different-ways-to-add-parentheses) |
 ## Greedy
 |  |
 | ------- |
@@ -84,4 +87,12 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/TareqRafed/Leethub/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+## Recursion
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/TareqRafed/Leethub/tree/master/0241-different-ways-to-add-parentheses) |
+## Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/TareqRafed/Leethub/tree/master/0241-different-ways-to-add-parentheses) |
 <!---LeetCode Topics End-->
