@@ -21,6 +21,7 @@ Collection of LeetCode questions that I have solved
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/TareqRafed/Leethub/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
+| [1256-rank-transform-of-an-array](https://github.com/TareqRafed/Leethub/tree/master/1256-rank-transform-of-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TareqRafed/Leethub/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -28,6 +29,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/TareqRafed/Leethub/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1256-rank-transform-of-an-array](https://github.com/TareqRafed/Leethub/tree/master/1256-rank-transform-of-an-array) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
 ## String
@@ -83,6 +85,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
+| [1256-rank-transform-of-an-array](https://github.com/TareqRafed/Leethub/tree/master/1256-rank-transform-of-an-array) |
 ## Two Pointers
 |  |
 | ------- |
