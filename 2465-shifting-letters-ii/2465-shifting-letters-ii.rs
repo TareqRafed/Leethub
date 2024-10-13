@@ -21,15 +21,15 @@ impl Solution {
     }
 
 
-    let mut shifted = s.clone();
+    let mut shifted = s.chars().collect::<Vec<char>>();
     for i in 0..shifted.len() {
         let mut char_to_shift = s.chars().nth(i).unwrap() as u8;
         let base = 'a' as u8;
         let shifted_char_as_byte = ((char_to_shift + merged_state[i] as u8 - base) % 26) + base;
         let new_char = char::from(shifted_char_as_byte);
-        shifted.replace_range(i..i+1, &new_char.to_string());
+        shifted[i]=new_char;
     } 
-    shifted
+    shifted.iter().collect()
     }
 }
 
