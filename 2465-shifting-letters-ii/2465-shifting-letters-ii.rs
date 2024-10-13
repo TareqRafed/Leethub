@@ -29,7 +29,6 @@ impl Solution {
         let new_char = char::from(shifted_char_as_byte);
         shifted.replace_range(i..i+1, &new_char.to_string());
     } 
-    println!("{:?}", merged_state);
     shifted
     }
 }
