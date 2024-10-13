@@ -5,8 +5,6 @@ impl Solution {
             pre_sum[i+1] += nums[i] + pre_sum[i];
         }
 
-        println!("{:?}", pre_sum);
-
         let mut l_p: usize = 0;
         let mut r_p: usize = 1;
         let mut min_len = pre_sum.len();
