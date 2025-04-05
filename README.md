@@ -22,6 +22,7 @@ Collection of LeetCode questions that I have solved
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0209-minimum-size-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
+| [1121-partition-array-for-maximum-sum](https://github.com/TareqRafed/Leethub/tree/master/1121-partition-array-for-maximum-sum) |
 | [1256-rank-transform-of-an-array](https://github.com/TareqRafed/Leethub/tree/master/1256-rank-transform-of-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/TareqRafed/Leethub/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -82,6 +83,7 @@ Collection of LeetCode questions that I have solved
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0131-palindrome-partitioning](https://github.com/TareqRafed/Leethub/tree/master/0131-palindrome-partitioning) |
 | [0241-different-ways-to-add-parentheses](https://github.com/TareqRafed/Leethub/tree/master/0241-different-ways-to-add-parentheses) |
+| [1121-partition-array-for-maximum-sum](https://github.com/TareqRafed/Leethub/tree/master/1121-partition-array-for-maximum-sum) |
 ## Greedy
 |  |
 | ------- |
