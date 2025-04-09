@@ -22,6 +22,7 @@ Collection of LeetCode questions that I have solved
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0209-minimum-size-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
+| [1046-max-consecutive-ones-iii](https://github.com/TareqRafed/Leethub/tree/master/1046-max-consecutive-ones-iii) |
 | [1121-partition-array-for-maximum-sum](https://github.com/TareqRafed/Leethub/tree/master/1121-partition-array-for-maximum-sum) |
 | [1256-rank-transform-of-an-array](https://github.com/TareqRafed/Leethub/tree/master/1256-rank-transform-of-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
@@ -69,6 +70,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0209-minimum-size-subarray-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/TareqRafed/Leethub/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1983-maximum-population-year](https://github.com/TareqRafed/Leethub/tree/master/1983-maximum-population-year) |
@@ -114,8 +116,10 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0209-minimum-size-subarray-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/TareqRafed/Leethub/tree/master/1046-max-consecutive-ones-iii) |
 ## Sliding Window
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0209-minimum-size-subarray-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/TareqRafed/Leethub/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
