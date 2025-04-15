@@ -9,6 +9,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/TareqRafed/Leethub/tree/master/0241-different-ways-to-add-parentheses) |
+| [0523-continuous-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 | [1971-incremental-memory-leak](https://github.com/TareqRafed/Leethub/tree/master/1971-incremental-memory-leak) |
 ## Simulation
@@ -21,6 +22,7 @@ Collection of LeetCode questions that I have solved
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/TareqRafed/Leethub/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TareqRafed/Leethub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0209-minimum-size-subarray-sum) |
+| [0523-continuous-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/TareqRafed/Leethub/tree/master/0539-minimum-time-difference) |
 | [1046-max-consecutive-ones-iii](https://github.com/TareqRafed/Leethub/tree/master/1046-max-consecutive-ones-iii) |
 | [1121-partition-array-for-maximum-sum](https://github.com/TareqRafed/Leethub/tree/master/1121-partition-array-for-maximum-sum) |
@@ -33,6 +35,7 @@ Collection of LeetCode questions that I have solved
 ## Hash Table
 |  |
 | ------- |
+| [0523-continuous-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0523-continuous-subarray-sum) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/TareqRafed/Leethub/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1256-rank-transform-of-an-array](https://github.com/TareqRafed/Leethub/tree/master/1256-rank-transform-of-an-array) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -70,6 +73,7 @@ Collection of LeetCode questions that I have solved
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0209-minimum-size-subarray-sum) |
+| [0523-continuous-subarray-sum](https://github.com/TareqRafed/Leethub/tree/master/0523-continuous-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/TareqRafed/Leethub/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TareqRafed/Leethub/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/TareqRafed/Leethub/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
